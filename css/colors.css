@@ -1,0 +1,12 @@
+#text-kiper{
+    color: white;
+}
+.selected-menu{
+	background-color: #00FF00;
+}
+.btn.active{
+    background-color: #00FF00;
+}
+.background-kiper{
+	background-color: #008000;
+}
