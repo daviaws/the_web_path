@@ -18,12 +18,12 @@
 	        <a class="navbar-brand" href="#">Brand</a>
 		</div>
 		<ul class="nav navbar-nav">
-			<li><a id="configuration" class="dropdown" data-toggle="collapse"  onmouseout="$(this).click()" onmouseover="$(this).click()" data-target="#configuration-sub-menu">Configuration</a>
+			<li><a id="configuration" class="dropdown" data-toggle="collapse"  onmouseout="$(this).click()" onmouseenter="$(this).click()" data-target="#configuration-sub-menu">Configuration</a>
 			</li>
 		</ul>
 	</div>
 </div>
-<div id="configuration-sub-menu" class="navbar navbar-inverse navbar-static-top collapse" role="navigation" onmouseout="$('#configuration').click()" onmouseover="$('#configuration').click()">	
+<div id="configuration-sub-menu" class="navbar navbar-inverse navbar-static-top collapse" role="navigation" onmouseenter="$('#configuration').click()" onmouseleave="$('#configuration').click()">	
 	<div class="navbar-header">
 		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button>
 	</div>
