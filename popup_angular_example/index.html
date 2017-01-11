@@ -1,0 +1,18 @@
+<script src="angular.min.js"></script>
+<script src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="popup.css" />
+
+<html ng-app="app">
+	<meta charset="UTF-8">
+	<body ng-controller="appController">
+
+	   <div id="popup" class="popup" style="display: {{display}};"> 
+	     <p>Conteúdo do pop-up aqui.</p>
+	     <p><small class="fechar"><button ng-click="fechar()">Fechar pop-up</button></small></p>
+	   </div>
+
+	   <p><button ng-click="abrir()">Abrir POPUP</button>
+	      <button ng-click="fechar()">Fechar POPUP</button></p>
+
+	</body>
+</html>
